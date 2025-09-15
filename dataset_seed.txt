@@ -1,0 +1,96 @@
+# This file contains seed data for training the bigram model.
+# Add more DSL lines and code snippets to improve the model's
+# suggestions.
+
+# To expand this file safely:
+# 1. Do not include any proprietary data.
+# 2. Use generic or generated examples.
+# 3. Keep the lines short and focused.
+# 4. Aim for variety in syntax and keywords.
+
+# Common programming patterns
+if condition then statement
+if condition then { statement1 statement2 }
+for item in collection do process(item)
+while condition do update state
+try { operation } catch { handle error }
+function name(parameters) { body }
+class name { members }
+return value
+print message
+log event
+assert condition
+throw exception
+
+# Generic DSL-like commands
+create object type="widget" name="myWidget"
+update property object="myWidget" property="color" value="blue"
+delete object type="widget" name="myWidget"
+get data source="database" table="users"
+set setting name="timeout" value="30"
+call service method="calculate" parameters="x, y"
+send message destination="queue" content="data"
+receive message source="queue"
+validate input type="string" pattern="[a-zA-Z]+"
+transform data source="input" destination="output" rule="uppercase"
+execute command name="deploy" target="server"
+schedule task time="10:00" command="backup"
+monitor resource type="CPU" threshold="80%"
+notify event type="error" recipient="admin"
+
+# Code snippets (C-like syntax)
+int x = 0;
+string message = "Hello, world!";
+if (x > 0) { print("Positive"); } else { print("Non-positive"); }
+for (int i = 0; i < 10; i++) { print(i); }
+while (running) { updateState(); }
+try { doSomething(); } catch (Exception e) { handleError(e); }
+public class MyClass { public int value; }
+return result;
+print("Operation completed");
+log("User logged in");
+assert(value > 0);
+throw new Exception("Invalid input");
+
+# More diverse DSL examples
+define workflow name="processData" steps="get, transform, validate, send"
+map variable="x" expression="y + z"
+reduce list operation="sum"
+filter list condition="value > 10"
+sort list field="name" order="ascending"
+group list field="category"
+join table1 table2 on key
+pivot table column="date" value="sales"
+unpivot table column="attribute" value="value"
+
+# More examples - DSL control flow:
+if ( condition ) { action ; }
+else { alternative_action ; }
+
+# More examples - Looping constructs:
+foreach ( item in collection ) { process( item ) ; }
+while ( condition ) { update_state ; }
+
+# More examples - Data structures:
+list = [ item1 , item2 , item3 ] ;
+dictionary = { key1 : value1 , key2 : value2 } ;
+
+# More examples - Error handling:
+try { risky_operation ; } catch ( exception_type exception_name ) { handle_exception ; }
+
+# More examples - Functional programming style:
+map ( collection , transform_function ) ;
+filter ( collection , predicate_function ) ;
+reduce ( collection , accumulator_function , initial_value ) ;
+
+#More examples - REST API-like DSL:
+GET /resource/id
+POST /resource data={ field1 : value1 , field2 : value2 }
+PUT /resource/id data={ field1 : new_value1 }
+DELETE /resource/id
+
+#More examples - SQL-like DSL:
+SELECT field1 , field2 FROM table WHERE condition
+INSERT INTO table ( field1 , field2 ) VALUES ( value1 , value2 )
+UPDATE table SET field1 = new_value1 WHERE condition
+DELETE FROM table WHERE condition

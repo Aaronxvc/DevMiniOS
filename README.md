@@ -81,8 +81,70 @@ DevMiniOS follows a modular architecture:
 
 ## Contributing
 
-[Explain how others can contribute to your project.]
+We welcome contributions to DevMiniOS! Whether you're a seasoned developer, a documentation enthusiast, or just starting out, there are many ways you can help.
+
+### How to Contribute
+
+1.  **Fork the repository:** Click the "Fork" button in the upper-right corner of the GitHub repository to create your own copy.
+
+2.  **Clone your fork:** Clone your forked repository to your local machine:
+    ```bash
+    git clone https://github.com/your-username/DevMiniOS.git
+    ```
+
+3.  **Create a branch:** Create a new branch for your changes:
+    ```bash
+    git checkout -b feature/your-feature-name
+    ```
+    *   Use descriptive branch names, such as `feature/add-new-dsl-command` or `fix/typo-in-readme`.
+
+4.  **Make your changes:** Implement your desired changes, following the coding standards outlined below.
+
+5.  **Commit your changes:** Commit your changes with a clear and concise commit message:
+    ```bash
+    git commit -m "Add new DSL command for database interaction"
+    ```
+
+6.  **Push your changes to your fork:**
+    ```bash
+    git push origin feature/your-feature-name
+    ```
+
+7.  **Submit a pull request:** Go to your forked repository on GitHub and click the "Create pull request" button.
+
+### Types of Contributions
+
+*   **Code Contributions:**
+    *   Implement new features or DSL commands.
+    *   Fix bugs.
+    *   Improve performance.
+    *   Add tests.
+*   **Documentation Contributions:**
+    *   Improve the README file.
+    *   Add or update API documentation.
+    *   Create tutorials or examples.
+*   **Bug Reports:** Report any bugs or issues you encounter by creating a new issue in the GitHub issue tracker.
+*   **Feature Requests:** Suggest new features or improvements by creating a new issue in the GitHub issue tracker.
+
+### Coding Standards
+
+*   Follow the existing coding style and naming conventions.
+*   Add XML documentation comments to all new classes, methods, and properties in C#.
+*   Add docstrings to all new functions and classes in Python.
+*   Write unit tests for all new code.
+*   Keep code changes small and focused.
+*   Ensure that your changes don't introduce any new warnings or errors.
+
+### Issue Tracking
+
+Use the GitHub issue tracker to report bugs, suggest new features, or ask questions.
+
+### Code of Conduct
+
+We are committed to creating a welcoming and inclusive community. Please review our [Code of Conduct](link-to-code-of-conduct.md) before contributing.
+
+Thank you for your contributions!
 
 ## License
 
-[Specify the license under which your project is distributed.]
+MIT License 
